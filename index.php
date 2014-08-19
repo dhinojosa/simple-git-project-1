@@ -3,6 +3,11 @@
  class Myclass {
 	var $today = now();
 	var $stuff = "today is just today";
-	print($this->stuff.": " . $this->today);
+	public function message() {
+
+	   $MyMsg = "$this->stuff . ": " . $this->today";
+           return $MyMsg;		
+
+	}
  }
 ?>
