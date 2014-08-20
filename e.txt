@@ -1,0 +1,8 @@
+class CdsDAO {
+  public function save(Cds $cds) {
+    $db= new DB();
+    $query = 'insert into cds () VALUES ();
+    $result = $db->query($query);
+    return $result;
+  }
+}
